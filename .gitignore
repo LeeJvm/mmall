@@ -1,0 +1,39 @@
+*.class
+#package file
+*.var
+*.ear
+
+#kdiff3 ignore
+*.org
+
+#maven
+target/
+
+.settiong/
+.project
+.classpath
+
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file 临时文件
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+
+

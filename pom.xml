@@ -11,6 +11,11 @@
     <name>mmall Maven Webapp</name>
     <url>htttp://maven.apache.org</url>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
+    <properties/>
 
     <dependencies>
         <dependency>
@@ -23,6 +28,24 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jdkhome.blzo</groupId>
+            <artifactId>blzo-ex-redission</artifactId>
+            <version>0.4.0.1.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.datorama.oss</groupId>
+            <artifactId>redisson-replicated-map</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.7</version>
         </dependency>
 
     </dependencies>

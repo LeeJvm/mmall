@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
 
+    /**
+     *
+     * hello接口
+     *
+     * @return
+     */
     @RequestMapping(method = RequestMethod.GET,path = "/hello")
     public String test() {
         return "hello1";
